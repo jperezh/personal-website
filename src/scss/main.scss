@@ -1,0 +1,9 @@
+body {
+	section {
+		background-color: red;
+
+		&.introduction {
+		    height: 100vh;
+		}
+	}
+}
