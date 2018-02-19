@@ -2,10 +2,8 @@
 	"name": "jaime-perez-personal-website",
 	"version": "0.1.0",
 	"description": "A personal website for myself",
-	"main": "index.js",
 	"scripts": {
-		"start": "node index.js",
-		"build-css": "node-sass --include-path scss src/scss/main.scss assets/css/main.css"
+		"start": "node index.js"
 	},
 	"repository": {
 		"type": "git",
