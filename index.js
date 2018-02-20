@@ -8,7 +8,9 @@ const port = 80;
 app.get('/', (request, response) => {
 	response.sendFile(path.join(__dirname, '/home.html'));
 });
-app.use(favicon(path.join(__dirname, 'favicon.ico')))
+
+app.use(favicon(path.join(__dirname, '/favicon.ico')));
+
 app.use(express.static(__dirname + '/assets'));
 
 app.get('*', (request, response) => {
